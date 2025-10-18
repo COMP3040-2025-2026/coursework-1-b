@@ -42,7 +42,6 @@ The University of Nottingham Malaysia currently uses **Instatt** for basic class
 We propose developing **Campus Life Hub (My Nottingham)**, a comprehensive mobile platform that integrates all essential campus services into one unified application. The platform will maintain Instatt's existing attendance functionality while adding:
 
 1. **Shuttle Timeline**: Provide bus schedules for different time periods
-1. **Shuttle Time Line**: Provide bus schedules for different time periods
 2. **Campus Cafeteria Delivery**: Food ordering with delivery tracking
 3. **Sports Facility Booking**: Seamless reservation system with guidelines
 4. **AI Assistant "Notti"**: Intelligent chatbot for campus queries
