@@ -16,7 +16,10 @@
 
 - [🎯 Problem Statement and Motivation](#-problem-statement-and-motivation)
 - [💡 Potential Impact and Challenges](#-potential-impact-and-challenges)
+<<<<<<< HEAD
 - [🚀 Use Cases and User Stories](#-use-cases-and-user-stories)
+=======
+>>>>>>> fb4efabe45681b8e41f13f796bb6ddb332096d9f
 
 ---
 
@@ -41,7 +44,11 @@ The University of Nottingham Malaysia currently uses **Instatt** for basic class
 
 We propose developing **Campus Life Hub (My Nottingham)**, a comprehensive mobile platform that integrates all essential campus services into one unified application. The platform will maintain Instatt's existing attendance functionality while adding:
 
+<<<<<<< HEAD
 1. **Shuttle Timeline**: Provide bus schedules for different time periods
+=======
+1. **Shuttle Time Line**: Provide bus schedules for different time periods
+>>>>>>> fb4efabe45681b8e41f13f796bb6ddb332096d9f
 2. **Campus Cafeteria Delivery**: Food ordering with delivery tracking
 3. **Sports Facility Booking**: Seamless reservation system with guidelines
 4. **AI Assistant "Notti"**: Intelligent chatbot for campus queries
@@ -109,6 +116,7 @@ Our platform differentiates itself through:
 **Challenge:** Protecting sensitive student information and payment details
 
 **Solution:** Use secure communication, follow data protection rules, protect payments, and add login verification for safety.
+<<<<<<< HEAD
 
 ## 🚀 Use Cases and User Stories
 
@@ -239,3 +247,6 @@ Our platform differentiates itself through:
 - Provide summaries of long documents
 - Answer questions about uploaded content
 - Explain complex concepts in simpler terms
+=======
+---
+>>>>>>> fb4efabe45681b8e41f13f796bb6ddb332096d9f
