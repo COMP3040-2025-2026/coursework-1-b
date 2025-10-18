@@ -60,7 +60,7 @@ We propose developing **Campus Life Hub (My Nottingham)**, a comprehensive mobil
 Our platform differentiates itself through:
 
 1. **AI-Powered Assistant**: Notti provides conversational answers about schedules, bookings, and campus events using natural language processing
-2. **Real-Time Everything**: Live shuttle tracking, instant booking confirmations, real-time chat and order status
+2. **Real-Time Everything**: Instant booking confirmations, real-time chat and order status
 3. **Smart Scheduling**: Automatic conflict detection between classes, bookings, and events
 4. **Community-Driven**: Student-to-student errand marketplace fosters peer economy
 5. **Comprehensive Integration**: First platform to unify transportation, dining, sports, academics, and social features
