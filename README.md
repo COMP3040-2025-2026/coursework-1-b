@@ -240,3 +240,218 @@ Our platform differentiates itself through:
 - Provide summaries of long documents
 - Answer questions about uploaded content
 - Explain complex concepts in simpler terms
+
+#### UC5: Campus Messaging and Forum
+
+<div align="center">
+  <img src="images/message1.png" width="45%" alt="Messages">
+  <img src="images/message2.png" width="45%" alt="Chat Detail">
+  <p><i>Message interface and chat conversations</i></p>
+</div>
+
+<div align="center">
+  <img src="images/forum1.png" width="45%" alt="Forum Posts">
+  <img src="images/forum2.png" width="45%" alt="Post Details">
+</div>
+<div align="center">
+  <img src="images/forum3.png" width="60%" alt="Forum Comments">
+  <p><i>Campus forum with categorized posts and discussions</i></p>
+</div>
+
+**User Story 5.1**
+
+> **As a** student  
+> **I want to** message my classmates directly  
+> **So that** I can collaborate on projects and stay connected
+
+**Acceptance Criteria:**
+- Search for students by name or student ID
+- Send text messages, images, and file attachments
+- Create group chats for project teams or study groups
+- Pin important conversations to top
+- Real-time message delivery with read receipts
+- Push notifications for new messages
+
+**User Story 5.2**
+
+> **As a** student  
+> **I want to** participate in campus forums  
+> **So that** I can ask questions, share knowledge, and stay informed
+
+**Acceptance Criteria:**
+- Browse posts by category: Study, Events, Career, Questions, General, Food
+- Create new posts with title, rich text content, and media attachments
+- Comment on posts and participate in discussions
+- Like posts for later reference
+- Report inappropriate content to moderators
+- Search posts by keywords or tags
+
+**User Story 5.3**
+
+> **As a** student  
+> **I want to** receive official announcements from university  
+> **So that** I stay informed about important updates
+
+**Acceptance Criteria:**
+- Official announcements displayed in dedicated section with special badge
+- Push notifications for urgent announcements (exam schedule changes, facility closures, emergency alerts)
+- Categorized by department: Academic Office, Sports Complex, Library, IT Services, Student Affairs
+- Archive of past announcements searchable by date or keyword
+- Option to acknowledge receipt of important announcements
+
+---
+
+#### UC6: Campus Errand Service
+
+<div align="center">
+  <img src="images/errand1.png" width="45%" alt="Errand Home">
+  <img src="images/errand2.png" width="45%" alt="Post Task">
+</div>
+<div align="center">
+  <img src="images/errand3.png" width="45%" alt="All Tasks">
+  <img src="images/errand4.png" width="45%" alt="My Tasks">
+</div>
+<div align="center">
+  <img src="images/errand5.png" width="45%" alt="Accepted Tasks">
+  <img src="images/errand6.png" width="45%" alt="Task Details">
+</div>
+<div align="center">
+  <img src="images/errand7.png" width="60%" alt="Additional Notes">
+  <p><i>Campus Errand marketplace for peer-to-peer delivery services</i></p>
+</div>
+
+**User Story 6.1**
+
+> **As a** student  
+> **I want to** request delivery services from other students  
+> **So that** I can get items delivered within campus without leaving my dorm
+
+**Acceptance Criteria:**
+- Describe item to be delivered (text description, optional photo)
+- Set pickup location (e.g., Library, Sports Complex, Friend's dorm)
+- Set dropoff location (own dorm building and room number)
+- Choose urgency level: Standard (1-2 hours, RM3-5) or Express (30 min, RM5-10)
+- View estimated delivery time and service fee
+- Rate and tip service provider after completion
+
+**User Story 6.2**
+
+> **As a** student  
+> **I want to** become an errand service provider  
+> **So that** I can earn extra money while on campus
+
+**Acceptance Criteria:**
+- View list of available errand requests with details and payment
+- Accept errands that fit schedule and location
+- Navigate to pickup and dropoff locations
+- Mark tasks as "Picked up" and "Completed" with photo proof
+- Receive payments directly to student account or e-wallet
+- View earnings history and ratings from customers
+
+---
+
+#### UC7: User Profile Management
+
+<div align="center">
+  <img src="images/me1.png" width="60%" alt="User Profile">
+  <p><i>User profile showing student information</i></p>
+</div>
+
+**User Story 7.1**
+
+> **As a** student  
+> **I want to** view and update my profile information  
+> **So that** my details stay current
+
+**Acceptance Criteria:**
+- Display student information: name, email, student ID, faculty, year, program
+- Change profile picture by tapping avatar
+- View academic information (non-editable, synced from university system)
+
+---
+
+### Nice-to-Have Features
+
+#### UC8: Integrated Payment System
+**Feature:** Enable cashless payments for all campus services through saved payment methods (credit/debit card, e-wallet, campus card)
+
+**Benefit:** Eliminates need for cash, reduces transaction time, provides spending analytics
+
+#### UC9: Event Discovery and RSVP
+**Feature:** Browse campus events (tech talks, workshops, sports tournaments, cultural festivals) with filtering by category, date, and location. RSVP directly with automatic calendar integration.
+
+**Benefit:** Increases event participation, reduces no-shows, helps organizers plan better
+
+#### UC10: Study Room Booking
+**Feature:** Reserve library study rooms with capacity indicators (2-person, 4-person, 8-person), view availability in real-time, receive QR code for room access.
+
+**Benefit:** Eliminates wait times for study rooms, improves library space utilization
+
+#### UC11: Lost and Found
+**Feature:** Report lost items with description and photo, search database of found items, receive notifications when matching items are reported, arrange collection from security office.
+
+**Benefit:** Increases chances of recovering lost belongings, reduces burden on security staff
+
+---
+
+## 🔍 Existing Solutions Review
+
+### Campus-Specific Apps
+
+#### UM Touch (University of Malaya)
+- **Similarities:** Shuttle Timeline
+- **Differences:** No food ordering, no community features
+- **Our Advantage:** Modern interface with comprehensive service integration and community building
+
+### Generic Solutions
+
+#### Blackboard / Moodle Mobile
+- **Focus:** Academic only (course materials, assignments, grades)
+- **Limitation:** No campus services, no booking systems, no community features
+- **Our Advantage:** Goes beyond academics to cover entire campus life
+
+#### GrabFood / Foodpanda
+- **Focus:** Commercial restaurant delivery
+- **Limitation:** High delivery fees (RM5-10), not campus cafeteria, no student marketplace
+- **Our Advantage:** Subsidized campus-only service (RM2-3 delivery) with student-to-student errand option
+
+#### WhatsApp / Telegram
+- **Focus:** General messaging
+- **Limitation:** Not campus-focused, no official channels, no structured forums, no student verification
+- **Our Advantage:** Verified student-only community with official announcement channels and categorized forums
+
+### Fundamental Differences
+
+Campus Life Hub is fundamentally different because it:
+
+1. **Holistically integrates ALL campus services** in one unified platform
+2. **Provides AI-powered intelligent assistance** through Notti for conversational, context-aware help
+3. **Enables real-time features across all services**: booking confirmations, order status, live chat
+4. **Fosters peer-to-peer economy** through student errand marketplace, creating income opportunities
+5. **Officially partners with university** for seamless integration with existing systems (authentication, payment, timetables)
+6. **Student-centric design** built specifically for university workflow with direct student input
+
+---
+
+## 📜 Assumptions
+
+### Regulatory Assumptions
+
+1. The system complies with Malaysia's Personal Data Protection Act (PDPA 2010)
+2. Payment gateways such as iPay88 or Senangpay can be integrated for basic transactions
+3. Forum content follows university rules and local communication guidelines
+4. Peer-to-peer errand terms and responsibilities are stated clearly to users
+5. Use of student information is approved by the university's relevant authority
+
+### Operational Assumptions
+
+1. Campus service units (cafeteria, sports, transport) provide updated information regularly
+2. Basic support is available during office hours via email or in-app messages
+3. User onboarding is gradual — starting with a pilot group before campus-wide release
+4. Key features such as viewing schedules or bookings remain accessible offline with later sync
+5. Notifications are limited to essential updates to avoid overloading users
+6. Forum content is monitored by assigned student moderators or staff members
+
+---
+
+**[⬆ Back to Top](#my-nottingham---campus-life-hub)**
