@@ -353,7 +353,7 @@ Our platform differentiates itself through:
 #### UC7: User Profile Management
 
 <div align="center">
-  <img src="images/me1.png" width="60%" alt="User Profile">
+  <img src="images/Me1.png" width="60%" alt="User Profile">
   <p><i>User profile showing student information</i></p>
 </div>
 
