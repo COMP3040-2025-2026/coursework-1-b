@@ -14,8 +14,8 @@
 
 ## 📋 Table of Contents
 
-- [Problem Statement and Motivation](#problem-statement-and-motivation)
-- [Potential Impact and Challenges](#potential-impact-and-challenges)
+- [🎯 Problem Statement and Motivation](#-problem-statement-and-motivation)
+- [💡 Potential Impact and Challenges](#-potential-impact-and-challenges)
 
 ---
 
@@ -108,3 +108,4 @@ Our platform differentiates itself through:
 **Challenge:** Protecting sensitive student information and payment details
 
 **Solution:** Use secure communication, follow data protection rules, protect payments, and add login verification for safety.
+---
