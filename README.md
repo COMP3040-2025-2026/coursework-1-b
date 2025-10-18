@@ -244,17 +244,17 @@ Our platform differentiates itself through:
 #### UC5: Campus Messaging and Forum
 
 <div align="center">
-  <img src="images/message1.png" width="45%" alt="Messages">
-  <img src="images/message2.png" width="45%" alt="Chat Detail">
+  <img src="images/Message1.png" width="45%" alt="Messages">
+  <img src="images/Message2.png" width="45%" alt="Chat Detail">
   <p><i>Message interface and chat conversations</i></p>
 </div>
 
 <div align="center">
-  <img src="images/forum1.png" width="45%" alt="Forum Posts">
-  <img src="images/forum2.png" width="45%" alt="Post Details">
+  <img src="images/Forum1.png" width="45%" alt="Forum Posts">
+  <img src="images/Forum2.png" width="45%" alt="Post Details">
 </div>
 <div align="center">
-  <img src="images/forum3.png" width="60%" alt="Forum Comments">
+  <img src="images/Forum3.png" width="60%" alt="Forum Comments">
   <p><i>Campus forum with categorized posts and discussions</i></p>
 </div>
 
