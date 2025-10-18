@@ -110,7 +110,6 @@ Our platform differentiates itself through:
 **Challenge:** Protecting sensitive student information and payment details
 
 **Solution:** Use secure communication, follow data protection rules, protect payments, and add login verification for safety.
-<<<<<<< HEAD
 
 ## 🚀 Use Cases and User Stories
 
@@ -203,7 +202,7 @@ Our platform differentiates itself through:
 #### UC4: AI Assistant (Notti)
 
 <div align="center">
-  <img src="images/notti.png" width="60%" alt="Notti AI Assistant">
+  <img src="images/Notti.png" width="60%" alt="Notti AI Assistant">
   <p><i>Notti AI assistant providing information about upcoming events and exams</i></p>
 </div>
 
