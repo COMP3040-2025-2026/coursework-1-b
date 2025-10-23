@@ -38,7 +38,7 @@ The University of Nottingham Malaysia currently uses **Instatt** for basic class
 While functional for its intended purpose, the university lacks a comprehensive platform that integrates other essential campus services.  
 Students face severe fragmentation when accessing daily necessities:
 
-![My Nottingham - Home Screen showing integrated services](homescreen.png)
+![My Nottingham - Home Screen showing integrated services](/images/homescreen.png)
 
 **Current pain points:**
 - **Multiple platforms:** Students juggle separate systems for shuttle booking, food ordering, facility reservations, and communication
@@ -132,8 +132,8 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### UC1: Campus Shuttle Time Line
 
-![Shuttle Time Line showing Routes A–G](shuttle1.png)  
-![Detailed Shuttle Bus Timeline](shuttle2.png)
+![Shuttle Time Line showing Routes A–G](/images/shuttle1.png)  
+![Detailed Shuttle Bus Timeline](/images/shuttle2.png)
 
 #### **User Story 1.1**
 > **As a** student, **I want to** view all shuttle routes and schedules **so that** I can plan my journey.  
@@ -148,13 +148,13 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### UC2: Campus Errand Service
 
-![Campus Errand marketplace showing available delivery tasks](errand1.png)  
-![Post a new delivery task](errand2.png)  
-![All available tasks](errand3.png)  
-![My posted tasks](errand4.png)  
-![Tasks accepted by me](errand5.png)  
-![Detailed task information](errand6.png)  
-![Additional notes or instructions](errand7.png)
+![Campus Errand marketplace showing available delivery tasks](/images/errand1.png)  
+![Post a new delivery task](/images/errand2.png)  
+![All available tasks](/images/errand3.png)  
+![My posted tasks](/images/errand4.png)  
+![Tasks accepted by me](/images/errand5.png)  
+![Detailed task information](/images/errand6.png)  
+![Additional notes or instructions](/images/errand7.png)
 
 #### **User Story 2.1 - Campus Errand Requester**
 > **As a** student, **I want to** request delivery services **so that** I can get items within campus.
@@ -185,19 +185,19 @@ The platform will maintain Instatt's existing attendance functionality while add
 - Choose delivery location  
 - Pay via e-wallet  
 
-![Cafeteria ordering system](FoodDelivery1.png)  
-![Ordering food](FoodDelivery2.png)  
-![Order details and customization](FoodDelivery3.png)  
-![View cart and confirm order](FoodDelivery4.png)
+![Cafeteria ordering system](/images/FoodDelivery1.png)  
+![Ordering food](/images/FoodDelivery2.png)  
+![Order details and customization](/images/FoodDelivery3.png)  
+![View cart and confirm order](/images/FoodDelivery4.png)
 
 ---
 
 ### UC3: Sports Facility Booking
 
-![Sports facility booking](sports1.png)  
-![Facilities Type](sports2.png)  
-![Booking time slots](sports3.png)  
-![Check booking and cancel](sports4.png)
+![Sports facility booking](/images/sports1.png)  
+![Facilities Type](/images/sports2.png)  
+![Booking time slots](/images/sports3.png)  
+![Check booking and cancel](/images/sports4.png)
 
 #### **User Story 3.1**
 > **As a** student, **I want to** check facility availability **so that** I can book at my preferred time.
@@ -220,7 +220,7 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### UC4: AI Assistant (Notti)
 
-![Notti AI assistant providing information about upcoming events and exams](Notti.png)
+![Notti AI assistant providing information about upcoming events and exams](/images/Notti.png)
 
 #### **User Story 4.1**
 > **As a** student, **I want to** ask Notti questions **so that** I get instant answers.
@@ -242,11 +242,11 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### UC5: Campus Messaging and Forum
 
-![Message interface with conversations](Message1.png)  
-![Detailed message](Message2.png)  
-![Forum with categorized posts](Forum1.png)  
-![Detailed posts](Forum2.png)  
-![Additional forum view](Forum3.png)
+![Message interface with conversations](/images/Message1.png)  
+![Detailed message](/images/Message2.png)  
+![Forum with categorized posts](/images/Forum1.png)  
+![Detailed posts](/images/Forum2.png)  
+![Additional forum view](/images/Forum3.png)
 
 #### **User Story 5.1**
 > **As a** student, **I want to** message classmates **so that** I can collaborate easily.
@@ -280,7 +280,7 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### UC6: User Profile Management
 
-![User profile showing student information](Me1.png)
+![User profile showing student information](/images/Me1.png)
 
 #### **User Story 6.1**
 > **As a** student, **I want to** view and update my profile **so that** my details stay current.
