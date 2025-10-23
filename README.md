@@ -17,20 +17,18 @@ University of Nottingham Malaysia
 ---
 
 ### Figma Prototype  
-🔗 [https://www.figma.com/design/6ougQIvpDwv5uiHiL3XPF0/My-Nottingham](https://www.figma.com/design/6ougQIvpDwv5uiHiL3XPF0/My-Nottingham)
+📱 **[View Figma Prototype](https://www.figma.com/design/6ougQIvpDwv5uiHiL3XPF0/My-Nottingham)**
 
 ---
 
-## Table of Contents
-- [Problem Statement and Motivation](#problem-statement-and-motivation)
-- [Potential Impact and Challenges](#potential-impact-and-challenges)
-- [Use Cases and User Stories](#use-cases-and-user-stories)
-- [Existing Solutions Review](#existing-solutions-review)
-- [Assumptions](#assumptions)
+## 📋 Table of Contents
+- [🎯 Problem Statement and Motivation](#-problem-statement-and-motivation)
+- [💡 Potential Impact and Challenges](#-potential-impact-and-challenges)
+- [🚀 Use Cases and User Stories](#-use-cases-and-user-stories)
 
 ---
 
-## Problem Statement and Motivation
+## 🎯 Problem Statement and Motivation
 
 ### The Problem
 
@@ -38,7 +36,8 @@ The University of Nottingham Malaysia currently uses **Instatt** for basic class
 While functional for its intended purpose, the university lacks a comprehensive platform that integrates other essential campus services.  
 Students face severe fragmentation when accessing daily necessities:
 
-![My Nottingham - Home Screen showing integrated services](/images/homescreen.png)
+![Home Screen](images/homescreen.png)
+*My Nottingham - Home Screen showing integrated services*
 
 **Current pain points:**
 - **Multiple platforms:** Students juggle separate systems for shuttle booking, food ordering, facility reservations, and communication
@@ -81,7 +80,7 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ---
 
-## Potential Impact and Challenges
+## 💡 Potential Impact and Challenges
 
 ### Potential Impact
 
@@ -106,25 +105,25 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### Key Challenges and Solutions
 
-#### 🟦 Update Data
+#### 🔄 Update Data
 **Challenge:** Keeping information from different campus services updated  
 **Solution:** Assign staff from each department to maintain accurate data regularly.
 
-#### 🟦 User Adoption
+#### 👥 User Adoption
 **Challenge:** Students may resist learning a new system  
 **Solution:** Phased rollout + incentives for early adopters (e.g., free credits) + in-app tutorials.
 
-#### 🟦 Scalability
+#### ⚡ Scalability
 **Challenge:** Handling 3,000+ concurrent orders during peak hours  
 **Solution:** Use online servers, cache frequently used data, process tasks asynchronously.
 
-#### 🟦 Data Privacy & Security
+#### 🔒 Data Privacy & Security
 **Challenge:** Protecting student and payment data  
 **Solution:** Encrypted communications, secure login, compliance with PDPA, verified payments.
 
 ---
 
-## Use Cases and User Stories
+## 🚀 Use Cases and User Stories
 
 ### Must-Have Features
 
@@ -132,8 +131,11 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### UC1: Campus Shuttle Time Line
 
-![Shuttle Time Line showing Routes A–G](/images/shuttle1.png)  
-![Detailed Shuttle Bus Timeline](/images/shuttle2.png)
+<div align="center">
+  <img src="images/shuttle1.png" width="45%" alt="Shuttle Routes">
+  <img src="images/shuttle2.png" width="45%" alt="Shuttle Timeline">
+  <p><i>Shuttle Timeline showing Routes A–G and Detailed Timeline</i></p>
+</div>
 
 #### **User Story 1.1**
 > **As a** student, **I want to** view all shuttle routes and schedules **so that** I can plan my journey.  
@@ -148,13 +150,28 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### UC2: Campus Errand Service
 
-![Campus Errand marketplace showing available delivery tasks](/images/errand1.png)  
-![Post a new delivery task](/images/errand2.png)  
-![All available tasks](/images/errand3.png)  
-![My posted tasks](/images/errand4.png)  
-![Tasks accepted by me](/images/errand5.png)  
-![Detailed task information](/images/errand6.png)  
-![Additional notes or instructions](/images/errand7.png)
+<div align="center">
+  <img src="images/errand1.png" width="45%" alt="Campus Errand marketplace showing available delivery tasks">
+  <img src="images/errand2.png" width="45%" alt="Post a new delivery task">
+  <p><i>Campus Errand: Marketplace and Task Creation</i></p>
+</div>
+
+<div align="center">
+  <img src="images/errand3.png" width="45%" alt="All available tasks">
+  <img src="images/errand4.png" width="45%" alt="My posted tasks">
+  <p><i>All Available and Posted Tasks</i></p>
+</div>
+
+<div align="center">
+  <img src="images/errand5.png" width="45%" alt="Tasks accepted by me">
+  <img src="images/errand6.png" width="45%" alt="Detailed task information">
+  <p><i>Accepted Tasks and Detailed Task Information</i></p>
+</div>
+
+<div align="center">
+  <img src="images/errand7.png" width="45%" alt="Additional notes or instructions">
+  <p><i>Additional Notes or Instructions</i></p>
+</div>
 
 #### **User Story 2.1 - Campus Errand Requester**
 > **As a** student, **I want to** request delivery services **so that** I can get items within campus.
@@ -185,19 +202,33 @@ The platform will maintain Instatt's existing attendance functionality while add
 - Choose delivery location  
 - Pay via e-wallet  
 
-![Cafeteria ordering system](/images/FoodDelivery1.png)  
-![Ordering food](/images/FoodDelivery2.png)  
-![Order details and customization](/images/FoodDelivery3.png)  
-![View cart and confirm order](/images/FoodDelivery4.png)
+<div align="center">
+  <img src="images/FoodDelivery1.png" width="45%" alt="Cafeteria ordering system">
+  <img src="images/FoodDelivery2.png" width="45%" alt="Ordering food">
+  <p><i>Cafeteria Ordering System and Menu Browsing</i></p>
+</div>
+
+<div align="center">
+  <img src="images/FoodDelivery3.png" width="45%" alt="Order details and customization">
+  <img src="images/FoodDelivery4.png" width="45%" alt="View cart and confirm order">
+  <p><i>Order Customization and Cart Confirmation</i></p>
+</div>
 
 ---
 
 ### UC3: Sports Facility Booking
 
-![Sports facility booking](/images/sports1.png)  
-![Facilities Type](/images/sports2.png)  
-![Booking time slots](/images/sports3.png)  
-![Check booking and cancel](/images/sports4.png)
+<div align="center">
+  <img src="images/sports1.png" width="45%" alt="Sports facility booking">
+  <img src="images/sports2.png" width="45%" alt="Facilities Type">
+  <p><i>Sports Facility Selection and Type Overview</i></p>
+</div>
+
+<div align="center">
+  <img src="images/sports3.png" width="45%" alt="Booking time slots">
+  <img src="images/sports4.png" width="45%" alt="Check booking and cancel">
+  <p><i>Booking Time Slots and Management of Reservations</i></p>
+</div>
 
 #### **User Story 3.1**
 > **As a** student, **I want to** check facility availability **so that** I can book at my preferred time.
@@ -242,11 +273,22 @@ The platform will maintain Instatt's existing attendance functionality while add
 
 ### UC5: Campus Messaging and Forum
 
-![Message interface with conversations](/images/Message1.png)  
-![Detailed message](/images/Message2.png)  
-![Forum with categorized posts](/images/Forum1.png)  
-![Detailed posts](/images/Forum2.png)  
-![Additional forum view](/images/Forum3.png)
+<div align="center">
+  <img src="images/Message1.png" width="45%" alt="Message interface with conversations">
+  <img src="images/Message2.png" width="45%" alt="Detailed message">
+  <p><i>Messaging Interface and Conversation Details</i></p>
+</div>
+
+<div align="center">
+  <img src="images/Forum1.png" width="45%" alt="Forum with categorized posts">
+  <img src="images/Forum2.png" width="45%" alt="Detailed posts">
+  <p><i>Forum with Categorized and Detailed Posts</i></p>
+</div>
+
+<div align="center">
+  <img src="images/Forum3.png" width="45%" alt="Additional forum view">
+  <p><i>Additional Forum View</i></p>
+</div>
 
 #### **User Story 5.1**
 > **As a** student, **I want to** message classmates **so that** I can collaborate easily.
