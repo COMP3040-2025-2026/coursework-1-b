@@ -26,12 +26,14 @@
 
 The University of Nottingham Malaysia currently uses **Instatt** for basic class attendance check-in. While functional for its intended purpose, the university lacks a comprehensive platform that integrates other essential campus services. Students face severe fragmentation when accessing daily necessities:
 
-![Home Screen](images/homescreen.png)
-*My Nottingham - Home Screen showing integrated services*
+<div align="center">
+  <img src="images/homescreen.png" width="60%" alt="Home Screen">
+  <p><i>My Nottingham - Home Screen showing integrated services</i></p>
+</div>
 
 #### Current Pain Points:
 
-- **Multiple platforms**: Students juggle separate systems for shuttle booking, food ordering, facility reservations, and communication
+- **Multiple platforms**: Students need to use different systems to sign in for classes, check shuttles, ordering food and book venues
 - **Time waste**: 15-20 minutes daily switching between different apps and websites
 - **Missed opportunities**: Important announcements, booking slots, and shuttle timings often missed
 - **Poor user experience**: Each system requires different credentials and has inconsistent interfaces
@@ -42,11 +44,10 @@ The University of Nottingham Malaysia currently uses **Instatt** for basic class
 We propose developing **Campus Life Hub (My Nottingham)**, a comprehensive mobile platform that integrates all essential campus services into one unified application. The platform will maintain Instatt's existing attendance functionality while adding:
 
 1. **Shuttle Timeline**: Provide bus schedules for different time periods
-2. **Campus Cafeteria Delivery**: Food ordering with delivery tracking
-3. **Sports Facility Booking**: Seamless reservation system with guidelines
-4. **AI Assistant "Notti"**: Intelligent chatbot for campus queries
-5. **Campus Community**: Built-in messaging and forum
-6. **Student Errand Marketplace**: Peer-to-peer delivery service
+2. **Sports Facility Booking**: Seamless reservation system with guidelines
+3. **AI Assistant "Notti"**: Intelligent chatbot for campus queries
+4. **Campus Community**: Built-in messaging and forum
+5. **Student Errand Marketplace**: Peer-to-peer delivery service
 
 ### Why a Unified Mobile Platform?
 
@@ -60,10 +61,10 @@ We propose developing **Campus Life Hub (My Nottingham)**, a comprehensive mobil
 Our platform differentiates itself through:
 
 1. **AI-Powered Assistant**: Notti provides conversational answers about schedules, bookings, and campus events using natural language processing
-2. **Real-Time Everything**: Live shuttle tracking, instant booking confirmations, real-time chat and order status
+2. **Real-Time Everything**: Instant booking confirmations, real-time chat and order status
 3. **Smart Scheduling**: Automatic conflict detection between classes, bookings, and events
 4. **Community-Driven**: Student-to-student errand marketplace fosters peer economy
-5. **Comprehensive Integration**: First platform to unify transportation, dining, sports, academics, and social features
+5. **Comprehensive Integration**: First platform to unify dining, sports, academics, and social features
 
 ---
 
@@ -85,7 +86,6 @@ Our platform differentiates itself through:
 - **Student satisfaction**: Improved campus experience attracts and retains students
 
 #### Social Impact:
-- **Sustainability**: Optimized shuttle routes reduce carbon emissions
 - **Peer economy**: Errand marketplace provides income opportunities for students
 
 ### Key Challenges and Solutions
@@ -96,19 +96,21 @@ Our platform differentiates itself through:
 **Solution:** Assign each department a staff representative to update their section regularly, ensuring students always see accurate and current information.
 
 #### 👥 User Adoption
-**Challenge:** Students resistant to changing from current workflow and learning new system
+**Challenge:** Students resistant to changing from current workflow and learning new system.
 
 **Solution:** Phased rollout starting with high-value features (booking, food ordering). Provide incentives for early adopters (free delivery credits). Include comprehensive in-app tutorials.
 
 #### ⚡ Scalability
-**Challenge:** Handling 3,000+ concurrent food delivery orders during peak lunch hours
+**Challenge:** Handling 3,000+ concurrent food delivery orders during peak lunch hours.
 
 **Solution:** Use online servers to handle more orders at once. Improve delivery speed by storing common data for quick access and processing orders step by step to avoid delays.
 
 #### 🔒 Data Privacy & Security
-**Challenge:** Protecting sensitive student information and payment details
+**Challenge:** Protecting sensitive student information and payment details.
 
 **Solution:** Use secure communication, follow data protection rules, protect payments, and add login verification for safety.
+
+---
 
 ## 🚀 Use Cases and User Stories
 
@@ -136,15 +138,62 @@ Our platform differentiates itself through:
 
 ---
 
-#### UC2: Cafeteria Food Ordering
+#### UC2: Campus Errand Service
 
 <div align="center">
-  <img src="images/cafeteria1.png" width="45%" alt="Cafeteria System">
-  <img src="images/cafeteria2.png" width="45%" alt="Food Ordering">
-  <p><i>Cafeteria ordering system and food menu</i></p>
+  <img src="images/errand1.png" width="45%" alt="Errand Home">
+  <img src="images/errand2.png" width="45%" alt="Post Task">
+</div>
+<div align="center">
+  <img src="images/errand3.png" width="45%" alt="All Tasks">
+  <img src="images/errand4.png" width="45%" alt="My Tasks">
+</div>
+<div align="center">
+  <img src="images/errand5.png" width="45%" alt="Accepted Tasks">
+  <img src="images/errand6.png" width="45%" alt="Task Details">
+</div>
+<div align="center">
+  <img src="images/errand7.png" width="60%" alt="Additional Notes">
+  <p><i>Campus Errand marketplace for peer-to-peer delivery and food ordering</i></p>
 </div>
 
-**User Story 2.1**
+<div align="center">
+  <img src="images/FoodDelivery1.png" width="45%" alt="Cafeteria System">
+  <img src="images/FoodDelivery2.png" width="45%" alt="Menu">
+</div>
+<div align="center">
+  <img src="images/FoodDelivery3.png" width="45%" alt="Order Details">
+  <img src="images/FoodDelivery4.png" width="45%" alt="Cart">
+  <p><i>Cafeteria food ordering interface</i></p>
+</div>
+
+**User Story 2.1 - Campus Errand Requester**
+
+> **As a** student  
+> **I want to** request delivery or pickup services from other students  
+> **So that** I can get items within campus without leaving my dorm
+
+**Acceptance Criteria:**
+- Describe item to be delivered (text description, optional photo)
+- Set pickup and dropoff locations
+- Choose urgency level: Standard (1–2 hours) or Express (30 min)
+- View estimated delivery time and service fee
+- Rate and tip the service provider after completion
+
+**User Story 2.2 - Campus Errand Provider**
+
+> **As a** student  
+> **I want to** accept errand requests from others  
+> **So that** I can earn extra income while studying on campus
+
+**Acceptance Criteria:**
+- View available tasks with details and payment offers
+- Accept suitable errands based on time and location
+- Mark tasks as "Picked up" and "Completed" with proof
+- Receive payment directly via e-wallet
+- View history of earnings and ratings
+
+**User Story 2.3 - Cafeteria Food Ordering**
 
 > **As a** student  
 > **I want to** browse the cafeteria menu and order food for delivery  
@@ -201,7 +250,7 @@ Our platform differentiates itself through:
 #### UC4: AI Assistant (Notti)
 
 <div align="center">
-  <img src="images/Notti.png" width="60%" alt="Notti AI Assistant">
+  <img src="images/notti.png" width="60%" alt="Notti AI Assistant">
   <p><i>Notti AI assistant providing information about upcoming events and exams</i></p>
 </div>
 
@@ -227,33 +276,21 @@ Our platform differentiates itself through:
 - Customizable reminder preferences (timing and frequency)
 - Smart scheduling: detect conflicts between bookings and classes
 
-**User Story 4.3**
-
-> **As a** student  
-> **I want to** upload documents to Notti for analysis  
-> **So that** I can get help understanding academic materials
-
-**Acceptance Criteria:**
-- Support file formats: PDF, DOCX, images (JPG, PNG)
-- Extract text from uploaded documents
-- Provide summaries of long documents
-- Answer questions about uploaded content
-- Explain complex concepts in simpler terms
-
+---
 #### UC5: Campus Messaging and Forum
 
 <div align="center">
-  <img src="images/Message1.png" width="45%" alt="Messages">
-  <img src="images/Message2.png" width="45%" alt="Chat Detail">
+  <img src="images/message1.png" width="45%" alt="Messages">
+  <img src="images/message2.png" width="45%" alt="Chat Detail">
   <p><i>Message interface and chat conversations</i></p>
 </div>
 
 <div align="center">
-  <img src="images/Forum1.png" width="45%" alt="Forum Posts">
-  <img src="images/Forum2.png" width="45%" alt="Post Details">
+  <img src="images/forum1.png" width="45%" alt="Forum Posts">
+  <img src="images/forum2.png" width="45%" alt="Post Details">
 </div>
 <div align="center">
-  <img src="images/Forum3.png" width="60%" alt="Forum Comments">
+  <img src="images/forum3.png" width="60%" alt="Forum Comments">
   <p><i>Campus forum with categorized posts and discussions</i></p>
 </div>
 
@@ -279,7 +316,7 @@ Our platform differentiates itself through:
 
 **Acceptance Criteria:**
 - Browse posts by category: Study, Events, Career, Questions, General, Food
-- Create new posts with title, rich text content, and media attachments
+- Create new posts with title, rich text content, and media attachments (images, documents)
 - Comment on posts and participate in discussions
 - Like posts for later reference
 - Report inappropriate content to moderators
@@ -300,96 +337,64 @@ Our platform differentiates itself through:
 
 ---
 
-#### UC6: Campus Errand Service
+#### UC6: User Profile Management
 
 <div align="center">
-  <img src="images/errand1.png" width="45%" alt="Errand Home">
-  <img src="images/errand2.png" width="45%" alt="Post Task">
-</div>
-<div align="center">
-  <img src="images/errand3.png" width="45%" alt="All Tasks">
-  <img src="images/errand4.png" width="45%" alt="My Tasks">
-</div>
-<div align="center">
-  <img src="images/errand5.png" width="45%" alt="Accepted Tasks">
-  <img src="images/errand6.png" width="45%" alt="Task Details">
-</div>
-<div align="center">
-  <img src="images/errand7.png" width="60%" alt="Additional Notes">
-  <p><i>Campus Errand marketplace for peer-to-peer delivery services</i></p>
+  <img src="images/me1.png" width="60%" alt="User Profile">
+  <p><i>User profile showing student information, notification settings, and logout option</i></p>
 </div>
 
 **User Story 6.1**
-
-> **As a** student  
-> **I want to** request delivery services from other students  
-> **So that** I can get items delivered within campus without leaving my dorm
-
-**Acceptance Criteria:**
-- Describe item to be delivered (text description, optional photo)
-- Set pickup location (e.g., Library, Sports Complex, Friend's dorm)
-- Set dropoff location (own dorm building and room number)
-- Choose urgency level: Standard (1-2 hours, RM3-5) or Express (30 min, RM5-10)
-- View estimated delivery time and service fee
-- Rate and tip service provider after completion
-
-**User Story 6.2**
-
-> **As a** student  
-> **I want to** become an errand service provider  
-> **So that** I can earn extra money while on campus
-
-**Acceptance Criteria:**
-- View list of available errand requests with details and payment
-- Accept errands that fit schedule and location
-- Navigate to pickup and dropoff locations
-- Mark tasks as "Picked up" and "Completed" with photo proof
-- Receive payments directly to student account or e-wallet
-- View earnings history and ratings from customers
-
----
-
-#### UC7: User Profile Management
-
-<div align="center">
-  <img src="images/Me1.png" width="60%" alt="User Profile">
-  <p><i>User profile showing student information</i></p>
-</div>
-
-**User Story 7.1**
 
 > **As a** student  
 > **I want to** view and update my profile information  
 > **So that** my details stay current
 
 **Acceptance Criteria:**
-- Display student information: name, email, student ID, faculty, year, program
-- Change profile picture by tapping avatar
+- Display student information: name, email, student ID, faculty, year, and program
+- Change profile picture by tapping the avatar icon
 - View academic information (non-editable, synced from university system)
+- Access notification settings and toggle campus errand notifications on/off
+- Switch between "Delivery Mode" (accepting errands) and "Normal Mode"
+- Show toast messages when notification or delivery mode status changes
+- Log out securely via confirmation prompt
+
+**User Story 6.2**
+
+> **As a** student  
+> **I want to** control my app notifications and availability  
+> **So that** I can decide when to receive tasks or updates
+
+**Acceptance Criteria:**
+- Enable or disable campus errand notifications via toggle switch
+- Activate delivery mode to receive available tasks
+- Deactivate delivery mode to stop receiving new tasks
+- View current status visually (switch indicator)
+- Receive instant feedback via on-screen toast message
 
 ---
 
 ### Nice-to-Have Features
 
-#### UC8: Integrated Payment System
-**Feature:** Enable cashless payments for all campus services through saved payment methods (credit/debit card, e-wallet, campus card)
+#### UC7: Integrated Payment System
+**Feature:** Enable cashless payments for all campus services through saved payment methods (credit/debit card, e-wallet, campus card).
 
-**Benefit:** Eliminates need for cash, reduces transaction time, provides spending analytics
+**Benefit:** Eliminates need for cash, reduces transaction time, provides spending analytics.
 
-#### UC9: Event Discovery and RSVP
+#### UC8: Event Discovery and RSVP
 **Feature:** Browse campus events (tech talks, workshops, sports tournaments, cultural festivals) with filtering by category, date, and location. RSVP directly with automatic calendar integration.
 
-**Benefit:** Increases event participation, reduces no-shows, helps organizers plan better
+**Benefit:** Increases event participation, reduces no-shows, helps organizers plan better.
 
-#### UC10: Study Room Booking
+#### UC9: Study Room Booking
 **Feature:** Reserve library study rooms with capacity indicators (2-person, 4-person, 8-person), view availability in real-time, receive QR code for room access.
 
-**Benefit:** Eliminates wait times for study rooms, improves library space utilization
+**Benefit:** Eliminates wait times for study rooms, improves library space utilization.
 
-#### UC11: Lost and Found
+#### UC10: Lost and Found
 **Feature:** Report lost items with description and photo, search database of found items, receive notifications when matching items are reported, arrange collection from security office.
 
-**Benefit:** Increases chances of recovering lost belongings, reduces burden on security staff
+**Benefit:** Increases chances of recovering lost belongings, reduces burden on security staff.
 
 ---
 
